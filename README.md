@@ -7,7 +7,6 @@ Vagrant files for building Ruby on Rails 5 with Sqlite for local development.
 
     Vagrant.configure("2") do |config|
          config.vm.box = "nguyenvkim/rails5-sqllite"
-          config.vm.box_version = "2018-03-20"
     end
 
 
